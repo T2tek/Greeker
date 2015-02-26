@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8A1E707B-2124-497C-9E27-7BE44AC8C848</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Greeker</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>ac3cfa1c-b630-40a8-9682-da69c653d915++938</key>
+		<string>svn://lightjsc.com/svn/ios/Greeker</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>src/Greeker/Greeker.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>ac3cfa1c-b630-40a8-9682-da69c653d915++938</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>ac3cfa1c-b630-40a8-9682-da69c653d915++938</key>
+		<string>svn://lightjsc.com/svn</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn://lightjsc.com/svn/ios/Greeker/src/Greeker/Greeker.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>ac3cfa1c-b630-40a8-9682-da69c653d915++938</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ac3cfa1c-b630-40a8-9682-da69c653d915++938</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Greeker</string>
+		</dict>
+	</array>
+</dict>
+</plist>

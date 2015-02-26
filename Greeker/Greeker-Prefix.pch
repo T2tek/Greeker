@@ -1,0 +1,103 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#define FACEBOOK_APPID      @"774169975961111"
+#define kBASE_URL           @"http://greeker.vivekverma.com/cms/api/api.php?"
+#define kBASE_UPLOAD_URL    @"http://greeker.vivekverma.com/cms/"
+
+#define kBASE_NEW_API    @"http://greeker.vivekverma.com/cms/appapi"
+
+
+#define kSIGNUP             @"key=signup&username=%@&password=%@&firstname=%@&lastname=%@&birthday=%@&email=%@&photo=%@&gender=%d&facebook=%@&school=%d&org=%d&pledge=%@&position=%@&hometown=%d&major=%@"
+#define kLOGIN              @"key=login&username=%@&password=%@"
+/*
+* username
+* password
+* name
+* birth
+* school
+* org
+* pledge
+ position
+ hometown
+ major
+* phone
+* email
+ */
+
+#define kCREATE_CHAPTER     @"key=newchapter"
+#define kSCHOOL_LIST        @"key=schoollist"
+#define kCITY_LIST          @"key=citylist"
+#define kORG_LIST           @"key=orglist"
+#define kLOOKUP             @"/lookup_chapter"
+#define kREQUEST            @"key=request&userid=%d&clubid=%d"
+#define kVIEW_MEMBER        @"key=viewmember&clubid=%d"
+#define kVIEW_REQUEST       @"key=viewrequest&clubid=%d"
+#define kACCEPT_REQUEST     @"key=acceptrequest&clubid=%d&userid=%d"
+#define kREJECT_REQUEST     @"key=rejectrequest&clubid=%d&userid=%d"
+
+#define kLOGIN_API        @"/login"
+
+#define kFORGOT_PASS_API        @"/forgotpassword"
+
+#define kSIGNUP_API @"/signup"
+#define kEDIT_PROFILE       @"/updateprofile"
+#define kUPDATE_CLUB       @"/updateclub"
+
+
+#define kSEARCH_CLUB      @"/searchclub"
+#define kMEMBER_LIST     @"/memberlist"
+#define kMEMBER_PROFILE      @"/memberprofile"
+#define kREQUEST_SEND     @"/sendrequest"
+#define kSEARCH_MEMBER      @"/searchmember"
+#define kINVITE_MEMBER      @"/save_invite"
+#define kINVITE_OF_MEMBER      @"/get_invite_by_user/%d"
+#define kUSER_INFO      @"/getuserinfo/%d"
+
+#define kPROCESS_INVITE @"/processinvite/%d/%d/%d"
+#define kCLUB_INFO        @"/orginfo/%d"
+#define kREQUEST_LIST     @"/showallrequest/%d"
+#define kLEAVE_CLUB @"/leaveclub"
+#define kPROCESS_REQUEST @"/processrequest/%d/%d/%d"
+
+#define kTASK_LIST @"/tasklist/%d/%d"
+
+#define kCREATE_TASK @"/createtask"
+#define kASSIGN_TASK @"/taskassign/%d/%d"
+#define kCOMPLETE_TASK @"/taskcomplete/%d"
+#define kMESSAGE_LIST_CLUB @"/messagelist"
+#define kMESSAGE_LIST_ADMIN @"/messagelist/%d/1"
+#define kSAVE_MESSAGE_API @"/save_message"
+#define kDELETE_MESSAGE_API @"/delete_message"
+
+#define kACTIVITY @"/activities/%d"
+
+#define kCREATE_CLUB = @"/newchapter"
+
+// Date time
+#define kFACEBOOK_DATE_FORMAT       @"MM/dd/yyyy"
+#define kSERVER_DATE_FORMAT         @"yyyy-MM-dd HH:mm:SS"
+#define kSERVER_TIME_FORMAT         @"HH:mm:SS"
+
+#define kUS_DATETIME_FORMAT         @"dd MMM yyyy hh:mm a"
+#define kUS_TIME_FORMAT         @"hh:mm a"
+
+#define kEVENT_LIST @"/get_events/%d/%d/%d"
+#define kCOMMING_EVENT @"/commingEvents/%d"
+
+#define kGOING_EVENT @"/going/%d/%d"
+
